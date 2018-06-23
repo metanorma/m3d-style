@@ -11,9 +11,9 @@
 /* Colors
 
 Orange: #EE9C4F
-Blue: #4D7EA5
+Blue: #69C5DC
 Drak Gray: #A5A8AB
-Gray: #B1B6B8
+Gray: #69C5DC
 Light Gray: #F5F6F6
 
 */
@@ -109,7 +109,7 @@ table {
         position: fixed;
         height: 100%;
         width: 30px;
-        background-color:#4D7EA5;
+        background-color:#69C5DC;
         color: white!important;
         cursor: pointer;
         z-index: 100;
@@ -148,6 +148,10 @@ table {
         padding: 0 1.5em 0 1.5em;
         overflow: visible;
     }
+
+    nav {
+        padding-left: 3em;
+    }
 }
 
 
@@ -163,7 +167,7 @@ table {
 }
 
 #toc a {
-    color: #4D7EA5;
+    color: #69C5DC;
     text-decoration: none;
     display: block;
 }
@@ -185,8 +189,8 @@ table {
 }
 
 #toc .toc-active, #toc li:hover {
-    background: #4D7EA5;
-    box-shadow: inset -5px 0px 10px -5px #4D7EA5!important;
+    background: #69C5DC;
+    box-shadow: inset -5px 0px 10px -5px #69C5DC!important;
 
 }
 
@@ -298,7 +302,7 @@ p.document-stage {
 }
 
 #working-draft-band {
-    background-color: #fda706;
+    background-color: #F22E15;
 }
 
 #committee-draft {
@@ -318,11 +322,11 @@ p.document-stage {
 }
 
 #standard {
-    border-bottom: solid 3px #0ac442;
+    border-bottom: solid 3px #69C5DC;
 }
 
 #standard-band {
-    background-color: #0ac442;
+    background-color: #69C5DC;
 }
 
 #obsolete {
@@ -377,7 +381,7 @@ p.document-stage {
 
 
   p.TermNum, p.Terms, p.AltTerms {
-    color: #00549f;
+    color: black;
     font-weight: 400;
   }
 
@@ -405,27 +409,27 @@ p.document-stage {
 
     a, a:visited{
         text-decoration: none;
-        color: #4D7EA5;
+        color: #69C5DC;
     }
 
     a:hover {
         color: white;
-        background: #4D7EA5;
-        box-shadow: 3px 0 0 #4D7EA5, -3px 0 0 #4D7EA5;
+        background: #69C5DC;
+        box-shadow: 3px 0 0 #69C5DC, -3px 0 0 #69C5DC;
         /* padding: 2px 0 2px 0; */
     }
 
     ::selection {
-        background: #4D7EA5; /* WebKit/Blink Browsers */
+        background: #69C5DC; /* WebKit/Blink Browsers */
         color: white;
       }
       ::-moz-selection {
-        background: #4D7EA5; /* Gecko Browsers */
+        background: #69C5DC; /* Gecko Browsers */
         color: white;
       }
 
       .contact-info a:hover {
-          color: #4D7EA5;
+          color: #69C5DC;
           text-decoration: underline;
           background: none;
           box-shadow: 0 0 0 0;
@@ -450,7 +454,7 @@ p.document-stage {
     .rule {
         width: 100%;
         height: 1px;
-        background-color: #00427e;
+        background-color: #F22E15;
         margin: 2em 0;
       }
 
@@ -473,7 +477,7 @@ p.Biblio {
     line-height: 1.6em;
     padding: 1.5em;
     background-color: #F5F6F6;
-    border-left: solid 5px #B1B6B8;
+    border-left: solid 5px #69C5DC;
     color: rgb(91, 94, 95);
     padding: 1.2em 1.2em 1.2em 2.2em;
     margin: 2em 0 2em -1em;;
@@ -492,7 +496,7 @@ p.Biblio {
 
 .note, .Note {
     background-color: #F5F6F6;
-    border-left: solid 5px #B1B6B8;
+    border-left: solid 5px #69C5DC;
     color: rgb(91, 94, 95);
     padding: 1.2em 1.2em 1.2em 2.2em;
     margin: 2em 0 2em -1em;;
@@ -504,7 +508,7 @@ p.Biblio {
 
 .example {
     background-color: #F5F6F6;
-    border-left: solid 5px #B1B6B8;
+    border-left: solid 5px #69C5DC;
     color: rgb(91, 94, 95);
     padding: 1.2em 1.2em 1.2em 2.2em;
     margin: 2em 0 2em -1em;;
@@ -552,7 +556,7 @@ tr:nth-child(even) {
 }
 
 thead {
-    background-color: #4D7EA5;
+    background-color: #69C5DC;
     color: white;
     border: none;
 }
@@ -583,7 +587,7 @@ a.footnote-number {
 
 .blockquote {
     background-color: #F5F6F6;
-    border-left: solid 5px #B1B6B8;
+    border-left: solid 5px #69C5DC;
     color: rgb(91, 94, 95);
     padding: 1.2em 1.2em 1.2em 2.2em;
     margin: 2em 0 2em -1em;;
@@ -597,7 +601,7 @@ a.footnote-number {
 
 .formula {
     background-color: #F5F6F6;
-    border-left: solid 5px #B1B6B8;
+    border-left: solid 5px #69C5DC;
     color: rgb(91, 94, 95);
     padding: 1.2em 1.2em 1.2em 2.2em;
     margin: 2em 0 2em -1em;;
@@ -661,10 +665,11 @@ p {
 */
 
 .coverpage {
-    background: radial-gradient(#2D5D8E, #0D1E2B);
+    /*background: radial-gradient(#2D5D8E, #0D1E2B);*/
     /*background-image: url("img/dots@2x.png");*/
-    color: #ffffff;
-    padding: 2em 0;
+    color: black;
+    padding: 2em 0 0 2em;
+
 }
 
   .doc-number {
@@ -695,6 +700,11 @@ p {
   .coverpage-logo {
       margin-top: 2em;
       margin-bottom: 2em;
+      background-color: white;
+  }
+
+  .coverpage-logo img {
+      width: 400px;
   }
 
   .coverpage-logo span {
@@ -709,20 +719,33 @@ p {
     4.2 Document Identity
 */
 
+.titles {
+    background-color: #69C5DC;
+}
+
   .title-first {
     font-size: 2em;
     line-height: 2em;
+    padding-bottom: 1em;
     font-weight: 900;
     text-transform: uppercase;
-    text-decoration: underline solid #EE9C4F;
-    margin-top: 3em;
+    background-color: #69C5DC;
+    color: white;
   }
 
   .title-second {
       font-size: 1.5em;
       line-height: 2em;
+      margin-top: 3em;
+      padding-top: 1em;
       font-weight: 600;
       text-transform: uppercase;
+      color: white;
+  }
+
+  .docinfo {
+      margin-top: 2em;
+      margin-bottom: 3em;
   }
 
   .coverpage-doc-identity {
@@ -749,20 +772,12 @@ p {
 
 
 .section-title {
-    background: linear-gradient(#A5A8AB, #B1B6B8);
-    padding: 4em 2em 3em 5.5em;
+    background-color: #69C5DC;
+    padding: 1em 2em 1em 5.5em;
     margin: 4em -3em 3em -5em;
-    border-bottom: 8px solid #EE9C4F;
+    border-bottom: 4px solid #F22E15;
 }
 
-.section-title .super-title {
-    font-size: 2em;
-    font-weight: 100;
-    line-height: 1em;
-    margin: 0;
-    color: white;
-    text-transform: uppercase;
-}
 
 .section-title h1 {
     font-size: 2em;
@@ -775,7 +790,7 @@ p {
 }
 
 h2 {
-    border-bottom: solid 1px #4D7EA5;
+    border-bottom: solid 1px #69C5DC;
     color: black;
 }
 
@@ -786,15 +801,15 @@ h2 {
 
 
   .coverpage-warning {
-    border-top: solid 1px #f36f36;
-    border-bottom: solid 1px #f36f36;
+    border-top: solid 1px #F22E15;
+    border-bottom: solid 1px #F22E15;
     margin: 1em 2em;
-    color: #00549f;
+    color: black;
     padding: 1em;
   }
 
   .coverpage-warning .title {
-    color: #f36f36;
+    color: #F22E15;
     font-family: 'Overpass', sans-serif;
     font-weight: 700;
     text-transform: uppercase;
@@ -814,7 +829,7 @@ h2 {
   }
 
 
-  .copyright .name, .copyright .address {color: #00549f;}
+  .copyright .name, .copyright .address {color: black;}
 
 
 
@@ -838,7 +853,7 @@ To top button
     font-size: 12px;
     border: none;
     outline: none;
-    background-color: #1d1d1d;
+    background-color: #69C5DC;
     opacity: 0.15;
     color: white;
     cursor: pointer;
